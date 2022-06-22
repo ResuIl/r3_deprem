@@ -1,0 +1,5 @@
+RegisterNetEvent("depremm")
+AddEventHandler("depremm", function()
+    SendNUIMessage({ action = "load" }) 
+    SetNuiFocus(1, 0)
+end)
